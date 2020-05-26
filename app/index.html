@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="header__title">
+          <span class="header__title--small">GET STARTED WITHIN 2 MINUTES</span>
+          Learn How To Bake In <br> 5 Easy Steps
+        </h1>
+
+        <p class="header__text">
+          No doubt, you need more one pot dinners in your life like this easy Bosnian-style chicken and rice. This
+          recipe is made all over the world with countless variations on the theme.
+        </p>
+
+        <form action="" class="form">
+          <input type="text" class="form__input" name="name" placeholder="Your Name" required>
+          <input type="email" class="form__input" name="mail" placeholder="Your Email" required>
+          <input type="tel" class="form__input input-phone" name="phone" placeholder="Phone" required>
+          <button class="form__button">Download eBook Now</button>
+
+          <p class="form__text">
+            * We don’t share your personal info with anyone. <br>
+            <span class="form__text--bottom">Check out our Policy for more information.</span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div class="cooking">
+    <div class="container">
+      <div class="cooking__inner">
+        <div class="cooking__flex-item">
+          <picture class="cooking__img">
+            <source media="(min-width: 481px) and (max-width: 768px)" srcset="img/cooking-img-1-tablet.png">
+            <source media="(max-width: 480px)" srcset="img/cooking-img-1-mobile.png">
+            <img src="img/cooking-img-1.png" alt="" class="cooking__img">
+          </picture>
+
+          <p class="cooking__text">
+            <span class="cooking__text--bold">Do you know how to level a cake?</span>
+            After years of cake successes and flops, I’m confident in this homemade vanilla cake. During my recipe
+            testing, I combined my white cake recipe and naked cake recipe. These are two reader favorites and I knew
+            they’d be the best starting point.
+          </p>
+        </div>
+
+        <div class="cooking__flex-item reversed">
+          <picture class="cooking__img">
+            <source media="(min-width: 481px) and (max-width: 768px)" srcset="img/cooking-img-2-tablet.png">
+            <source media="(max-width: 480px)" srcset="img/cooking-img-2-mobile.png">
+            <img src="img/cooking-img-2.png" alt="" class="cooking__img">
+          </picture>
+
+          <p class="cooking__text">
+            <span class="cooking__text--bold">Vanilla Cake Success Tips</span>
+            I always eyeball the amount of frosting between cake layers, but I measured when I decorated the pictured
+            cake. The vanilla buttercream recipe below yields about 6 cups of frosting. I recommend you use about 1.5
+            heaping cups of buttercream between each cake layer and reserve the last 3 cups for outside the cake.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
